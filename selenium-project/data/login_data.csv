@@ -1,0 +1,4 @@
+scenario,email,password,expected_status
+invalid_password,test_user_valid@example.com,WrongPass123!,failure
+invalid_email,nonexistent_user_998877@example.com,Secret123!,failure
+empty_credentials,,,failure

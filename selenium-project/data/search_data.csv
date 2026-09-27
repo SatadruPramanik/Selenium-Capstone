@@ -1,0 +1,5 @@
+scenario,search_term,expected_status
+valid_macbook,MacBook,found
+valid_iphone,iPhone,found
+valid_samsung,Samsung,found
+invalid_product,NonExistentItemXYZ999,not_found
